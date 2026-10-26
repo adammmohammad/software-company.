@@ -1,3 +1,33 @@
+/* Services */
+.services { padding: 88px 0; }
+.services h2 { font-size: 2rem; letter-spacing: -0.02em; margin-bottom: 8px; }
+.services .intro { color: var(--muted); margin-bottom: 40px; max-width: 52ch; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+.service {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px;
+}
+.service h3 { font-size: 1.2rem; margin-bottom: 8px; }
+.service p { color: var(--muted); }
+
+/* Footer */
+footer { background: var(--ink); color: #c9d1e0; padding: 48px 0 24px; }
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #36405a;
+}
+footer h4 { color: #fff; margin-bottom: 8px; }
+footer a:hover { color: #fff; }
+.copyright { padding-top: 20px; font-size: .9rem; }
 /* Shared basics: colors, reset, container */
 :root {
   --ink: #1c2330;
