@@ -10,5 +10,7 @@ Footer: contact information (email, phone, address), opening hours, and a copyri
 It is built with plain HTML and CSS, with no frameworks, and the layout adapts to phones, tablets and desktops. It was created as a team exercise to practice Git and GitHub collaboration, with feature branches, pull requests and code reviews.
 
 ----STUDENTS' NAMES----
+
 Student-A: Adam Mohammad
+
 Student-B: Tarek Kassem
